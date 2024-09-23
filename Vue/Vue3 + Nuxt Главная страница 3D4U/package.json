@@ -1,0 +1,38 @@
+{
+  "name": "3d4u",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "npm lint:eslint && npm prettier-check",
+    "lint:eslint": "eslint .",
+    "prettier-check": "prettier . --check",
+    "prettier-fix": "prettier . --write",
+    "lintfix": "eslint . --fix && prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxt/image": "^1.7.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "gh-pages": "^6.1.1",
+    "nuxt": "^3.12.4",
+    "nuxt-swiper": "^1.2.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.3.13",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

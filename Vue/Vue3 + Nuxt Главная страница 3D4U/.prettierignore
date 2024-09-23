@@ -1,0 +1,31 @@
+# Ignore:
+
+# Folders
+build
+dist
+server
+node_modules
+.output
+.nuxt
+.git
+.github
+
+# IDE
+.idea/
+.vscode/settings.json
+
+# Logs
+logs
+*.log
+
+# Files
+*.vue
+*.ts
+*.js
+*.css
+*.scss
+README.md
+
+# Lock-files
+yarn.lock
+package-lock.json
